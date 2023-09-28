@@ -4,7 +4,6 @@ class Marca implements Stringable
 
     public function __construct(protected string $nome)
     {
-        $this->nome = $nome;
     }
 
     public function __toString() : string{
